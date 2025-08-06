@@ -2,6 +2,6 @@ services:
   print_dist:
     build: .
     ports:
-      - 5010:5000
+      - 5010:5003
     privileged: true
     restart: unless-stopped
