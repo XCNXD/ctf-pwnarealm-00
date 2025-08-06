@@ -1,0 +1,2 @@
+Sometime when the exploit did not working. It's not your fault, Just a bad luck ¯\_(ツ)_/¯
+Here's the flag: pwn{h4ve_y0u_f0rget_50meth1ng_s0met1me?}
