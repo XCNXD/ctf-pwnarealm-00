@@ -1,0 +1,7 @@
+services:
+  print_dist:
+    build: .
+    ports:
+      - 2100:2100
+    privileged: true
+    restart: unless-stopped
