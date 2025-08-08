@@ -4,6 +4,13 @@ from pwn import *
 r = remote("localhost", 5000)
 elf = ELF("./challx")
 libc = ELF("libc.so.6")
+'''
+	you can take the libc out from docker
+	https://github.com/redpwn/jail/blob/7e604f10d8e48c485b381cbed688ed8c2cd902e8/docs/competitors.md
+
+	write up for this challenge :
+	https://medium.com/@netorika/seccon-ctf-13-quals-paragraph-pwnable-writeup-606877568169
+'''
 # libc = ELF("/lib/x86_64-linux-gnu/libc.so.6")
 
 context.arch = "amd64"

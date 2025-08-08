@@ -18,7 +18,7 @@ int main() //gcc tutorial3-5.c -o chall -m32
 		puts("A or B can't be negative\n");
 		exit(1);
 	}
-	c = a + b;
+	c = a + b; //make interger overflow! a = int_max; b = 1
 	if (c < 0)
 	{
 		puts("You wi-, ... Wait that's illegal!\n");
